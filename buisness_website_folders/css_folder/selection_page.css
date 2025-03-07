@@ -1,0 +1,269 @@
+body {
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* Dark/Light Mode */
+
+body.light-mode {
+    background-color: white;
+    color: black;
+
+}
+
+body.dark-mode {
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    color: white;
+
+}
+
+.footer.dark-mode {
+    background-color: #7a7a7a;
+    color: white;
+}
+
+#nav-bar.dark-mode {
+    background-color: #8d335d;
+}
+
+ul.dark-mode {
+    background-color: #8d335d;
+}
+
+.customers_Review.dark-mode {
+    background-color: rgb(150, 150, 150);
+}
+
+.discount.dark-mode {
+    background-color: rgb(99, 70, 177);
+}
+
+p.dark-mode ,h3.dark-mode{
+    color: white;
+}
+
+h3.dark-mode{
+
+}
+
+
+ /* navigation section */
+
+ #nav-bar {
+     background-color: #bfa3b0;
+     position: fixed;
+     z-index: 999;
+     width: 100%;
+     top: 0;
+     right: 0;
+     left: 0;
+     padding-left: 40px;
+
+ }
+
+ .nav-list {
+     display: inline-block;
+     color: white;
+     font-size: small;
+     font-weight: bold;
+     padding: 25px 20px;
+     text-align: center;
+     width: 160px;
+     cursor: pointer;
+     float: left;
+     text-align: center;
+ }
+
+
+ .nav-list:hover {
+     transform: scale(1.05);
+
+ }
+
+ .drop-down {
+     text-decoration: none;
+     display: block;
+     background-color: #bfa3b0;
+     border-radius: 20px;
+     background-size: contain;
+     top: 70%;
+     width: 130px;
+     padding: 20px;
+     position: absolute;
+     display: none;
+     cursor: pointer;
+ }
+
+ .drop-down a li {
+     padding: 10px 0;
+     text-decoration: none;
+     border-radius: 20px;
+     display: block;
+     color: white;
+     text-align: center;
+     font-size: small;
+ }
+
+ .drop-down a {
+     text-decoration: none;
+     display: block;
+     color: white;
+ }
+
+ .drop-down a li:hover {
+     background-color: rgb(221, 221, 221);
+     text-decoration: none;
+     display: block;
+     color: black;
+
+ }
+
+ ul li:hover ul.drop-down {
+     display: block;
+ }
+
+ .logo {
+     width: 50px;
+     position: absolute;
+     border-radius: 10px;
+     left: 1%;
+     top: 16%;
+     padding: 1px;
+ }
+
+ .search {
+     padding-left: 150px;
+     padding-top: 15px;
+     display: flex;
+     text-decoration: none;
+     gap: 20px;
+
+ }
+
+ #themeToggle {
+     width: 40px;
+     border-radius: 50%;
+     padding: 8px;
+     border: 0.1px solid black;
+ }
+
+
+
+  /* *Section1* */
+
+.sortBy{
+    position: absolute;
+    top: 13%;
+    left: 5%;
+  }
+
+#section1 {
+    padding: 150px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    
+}
+
+.dress {
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    background-color: white;
+    border-radius: 3%;
+
+}
+
+.dressName {
+    display: flex;
+}
+
+.dressName img {
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+
+
+.dressName div{
+   flex-direction: row;
+}
+
+.dressName div p {
+    font-size: large;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 2px;
+
+}
+
+.dressName div h3{
+    font-size: medium;
+    font-weight: lighter;
+    padding-left: 10px;
+}
+
+.rate_stars img {
+    width: 120px;
+    height: 50px;
+
+}
+
+.cart {
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    float: right;
+
+}
+
+.cart:hover{
+    transform: scale(1.05);
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.price div{
+    display: flex;
+}
+
+.price div p{
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+
+.price div p small{
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.itemsBody {
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 15px 20px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s ease;
+}
+
+.itemsBody:hover{
+    transform: scale(1.02);
+}
+
+.itemsBody a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+

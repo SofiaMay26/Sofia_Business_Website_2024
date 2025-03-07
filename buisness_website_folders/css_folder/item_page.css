@@ -1,0 +1,317 @@
+body {
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 0;
+    margin: 0;
+
+}
+
+/* Dark/Light Mode */
+
+body.light-mode {
+    background-color: white;
+    color: black;
+    
+
+}
+
+body.dark-mode {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-style: bold;
+    background-size: contain;
+
+}
+
+.footer.dark-mode {
+    background-color: #7a7a7a;
+    color: white;
+}
+
+#nav-bar.dark-mode {
+    background-color: #8d335d;
+}
+
+.customers_Review.dark-mode{
+    background-color: rgb(150, 150, 150);
+}
+
+.discount.dark-mode{
+    background-color: rgb(99, 70, 177);
+}
+
+ul.dark-mode {
+    background-color: #8d335d;
+}
+
+p.dark-mode {
+    color: white;
+}
+
+img.dark-mode{
+    filter: brightness(95%);
+}
+
+/* navigation section */
+
+#nav-bar {
+    background-color: #bfa3b0;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-left: 40px;
+
+}
+
+.nav-list {
+    display: inline-block;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    padding: 25px 20px;
+    text-align: center;
+    width: 160px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+}
+
+
+.nav-list:hover {
+    transform: scale(1.05);
+
+}
+
+.drop-down {
+    text-decoration: none;
+    display: block;
+    background-color: #bfa3b0;
+    border-radius: 20px;
+    background-size: contain;
+    top: 70%;
+    width: 130px;
+    padding: 20px;
+    position: absolute;
+    display: none;
+    cursor: pointer;
+}
+
+.drop-down a li {
+    padding: 10px 0;
+    text-decoration: none;
+    border-radius: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
+.drop-down a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.drop-down a li:hover {
+    background-color: rgb(221, 221, 221);
+    text-decoration: none;
+    display: block;
+    color: black;
+
+}
+
+ul li:hover ul.drop-down {
+    display: block;
+}
+
+ .logo {
+     width: 50px;
+     position: absolute;
+     border-radius: 10px;
+     left: 1%;
+     top: 16%;
+     padding: 1px;
+ }
+
+
+
+ .search {
+     padding-left: 150px;
+     padding-top: 15px;
+     display: flex;
+     text-decoration: none;
+     gap: 20px;
+
+ }
+
+ #themeToggle {
+     width: 40px;
+     border-radius: 50%;
+     padding: 8px;
+     border: 0.1px solid black;
+ }
+
+
+
+
+/* Section 1 */
+
+.angleImages {
+    padding-top: 100px;
+    padding-left: 100px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    float: left;
+}
+
+.angleImages img {
+    width: 80px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.fullPicture{
+    padding: 100px 30px;
+}
+
+.fullPicture img {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 600px;
+    height: 800px;
+    
+}
+
+.customers_Review {
+    background-color: rgb(230, 227, 227);
+    border-radius: 20px;
+    padding: 20px;
+    padding-right: 110px;
+   position: absolute;
+   left: 15%;
+   top: 110%;
+
+}
+
+.rate {
+    display: flex;
+}
+
+.rate img {
+    padding-top: 23px;
+    width: 20px;
+    height: 20px;
+   
+}
+
+.qualityPercent {
+   padding-left: 20px;
+}
+
+.overallFit {
+display: flex;
+gap: 30px;
+
+}
+.overallFit_container {
+    display: flex;
+   
+}
+
+.overallFit_container img {
+   width: 80px;
+   height: 50px;
+
+}
+
+
+.imageSection {
+    display: flex;
+    padding-left: 100px;
+}
+
+.imageName {
+    font-size: xx-large;
+    padding-top: 100px;
+    font-weight: bolder;
+}
+
+.newTrends img{
+    width: 100px;
+    
+}
+
+.checkBox{
+    padding-top: 20px;
+}
+
+.rightSection {
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+}
+
+.addToCart {
+    padding: 50px 0;
+}
+
+.addToCart input {
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+
+.addToCart input:hover{
+    border: 2px solid pink ;
+    
+}
+
+.addToCart p{
+    padding: 20px;
+}
+
+.discount {
+    background-color: rgb(222, 211, 252);
+    background-size: contain;
+    padding: 15px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+
+}
+
+.freeShipping {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.freeShipping img {
+    width: 22px;
+    height: 22px;
+    padding: 0 8px;
+    
+}
+
+.textbox {
+    width: 200px;
+    height: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.small{
+    font-weight: lighter;
+    padding: 40px ;
+}
