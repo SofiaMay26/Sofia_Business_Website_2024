@@ -184,7 +184,12 @@ ul li:hover ul.drop-down {
 
  /* section 1 */
 
-
+ #section1 img{
+    padding-top: 50px;
+    width: 100%;
+    
+    
+ }
 
  /* section 2 */
 
